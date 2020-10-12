@@ -37,7 +37,7 @@ Resources:
   ObservableRole:
     Type: "AWS::IAM::Role"
     Properties:
-      RoleName: 'Obsrvbl_role'
+      RoleName: 'Obsrvble_role'
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
@@ -54,7 +54,7 @@ Resources:
   ObservablePolicy:
     Type: 'AWS::IAM::Policy'
     Properties:
-      PolicyName: 'Obsrvbl_policy'
+      PolicyName: 'Obsrvble_policy'
       PolicyDocument:
         Version: 2012-10-17
         Statement:
@@ -91,7 +91,7 @@ Resources:
   Observables3Policy:
     Type: 'AWS::IAM::Policy'
     Properties:
-      PolicyName: 'Obsrvbl_s3policy'
+      PolicyName: 'Obsrvble_s3policy'
       PolicyDocument:
         Version: '2012-10-17'
         Statement:
